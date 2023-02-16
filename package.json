@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "cypress": "^12.5.1"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run:chrome": "cypress run --browser chrome --spec 'cypress/e2e/*.cy.js'",
+    "cy:run:firefox": "cypress run --browser firefox --spec 'cypress/e2e/*.cy.js'",
+    "cy:run:electron": "cypress run --browser electron --spec 'cypress/e2e/*.cy.js'"
+  }
+}
